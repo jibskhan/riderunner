@@ -1,2 +1,49 @@
-document.write('<link rel="stylesheet" href="https://gist.github.com/assets/embed-e0b4f33c526bffffd8e8377a4f0bc6de.css">')
-document.write('<div id=\"gist5394042\" class=\"gist\">\n        <div class=\"gist-file\">\n          <div class=\"gist-data gist-syntax\">\n            \n\n\n\n    <div class=\"file-data\">\n      <table cellpadding=\"0\" cellspacing=\"0\" class=\"lines highlight\">\n        <tr>\n          <td class=\"line-numbers\">\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L1\" rel=\"file-phonegap-url-test-L1\">1<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L2\" rel=\"file-phonegap-url-test-L2\">2<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L3\" rel=\"file-phonegap-url-test-L3\">3<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L4\" rel=\"file-phonegap-url-test-L4\">4<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L5\" rel=\"file-phonegap-url-test-L5\">5<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L6\" rel=\"file-phonegap-url-test-L6\">6<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L7\" rel=\"file-phonegap-url-test-L7\">7<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L8\" rel=\"file-phonegap-url-test-L8\">8<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L9\" rel=\"file-phonegap-url-test-L9\">9<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L10\" rel=\"file-phonegap-url-test-L10\">10<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L11\" rel=\"file-phonegap-url-test-L11\">11<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L12\" rel=\"file-phonegap-url-test-L12\">12<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L13\" rel=\"file-phonegap-url-test-L13\">13<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L14\" rel=\"file-phonegap-url-test-L14\">14<\/span>\n            <span class=\"line-number\" id=\"file-phonegap-url-test-L15\" rel=\"file-phonegap-url-test-L15\">15<\/span>\n          <\/td>\n          <td class=\"line-data\">\n            <pre class=\"line-pre\"><div class=\"line\" id=\"file-phonegap-url-test-LC1\">&lt;!DOCTYPE html&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC2\">&lt;html&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC3\">    &lt;head&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC4\">        &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC5\">        &lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot; /&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC6\">        &lt;meta name=&quot;viewport&quot; content=&quot;user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi&quot; /&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC7\">        &lt;title&gt;Hello World&lt;/title&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC8\">        &lt;script type=&quot;text/javascript&quot; src=&quot;cordova-2.5.0.js&quot;&gt;&lt;/script&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC9\">    &lt;/head&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC10\">    &lt;body&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC11\">	&lt;a href=&quot;#&quot; onclick=&quot;var ref = window.open(&#39;http://google.com&#39;, &#39;_system&#39;);&quot;&gt;Google (System Browser)&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC12\">	&lt;a href=&quot;#&quot; onclick=&quot;var ref = window.open(&#39;http://google.com&#39;, &#39;_blank&#39;);&quot;&gt;Google (InAppBrowser)&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC13\">	&lt;a href=&quot;#&quot; onclick=&quot;var ref = window.open(&#39;http://google.com&#39;, &#39;_self&#39;);&quot;&gt;Google (Webview)&lt;/a&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC14\">    &lt;/body&gt;<\/div><div class=\"line\" id=\"file-phonegap-url-test-LC15\">&lt;/html&gt;<\/div><\/pre>\n          <\/td>\n        <\/tr>\n      <\/table>\n    <\/div>\n\n          <\/div>\n          <div class=\"gist-meta\">\n            <a href=\"https://gist.github.com/anonymous/5394042/raw/e7d45c6ddbe9e314ed9ab8d282aa46f21231533c/PhoneGap+URL+Test\" style=\"float:right\">view raw<\/a>\n            <a href=\"https://gist.github.com/anonymous/5394042#file-phonegap-url-test\">PhoneGap URL Test<\/a>\n            hosted with &#10084; by <a href=\"https://github.com\">GitHub<\/a>\n          <\/div>\n        <\/div>\n<\/div>\n')
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+var app = {
+    // Application Constructor
+    initialize: function() {
+        this.bindEvents();
+    },
+    // Bind Event Listeners
+    //
+    // Bind any events that are required on startup. Common events are:
+    // 'load', 'deviceready', 'offline', and 'online'.
+    bindEvents: function() {
+        document.addEventListener('deviceready', this.onDeviceReady, false);
+    },
+    // deviceready Event Handler
+    //
+    // The scope of 'this' is the event. In order to call the 'receivedEvent'
+    // function, we must explicity call 'app.receivedEvent(...);'
+    onDeviceReady: function() {
+        app.receivedEvent('deviceready');
+    },
+    // Update DOM on a Received Event
+    receivedEvent: function(id) {
+        var parentElement = document.getElementById(id);
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
+
+        listeningElement.setAttribute('style', 'display:none;');
+        receivedElement.setAttribute('style', 'display:block;');
+
+        console.log('Received Event: ' + id);
+    }
+};
