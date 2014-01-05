@@ -9,7 +9,7 @@
     <name>Riderunner</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Ride runner app created for Android, Windows Phone and iOS devices
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
