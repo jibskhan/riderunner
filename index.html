@@ -3,48 +3,33 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="format-detection" content="telephone=no" />
-<script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/cordova-2.7.0.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/index.js"></script>
 <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 <title>Riderunner</title>
 
 <script type="text/javascript" charset="utf-8">
+                    // Wait for Cordova to load
+    document.addEventListener("deviceready", onDeviceReady, false);
 
-					// Wait for Cordova to load
-    //document.addEventListener("deviceready", onDeviceReady, false);
+    var ref= null;
 
-	var ref= null;
-	ref = window.open('http://app.riderunner.de', '_blank', 'location=yes');
-	ref.addEventListener('loadstart', function() { alert(event.url); });
-	
-	//function iabLoadStart(event) {
-	//		alert(event.type + ' - ' + event.url);
-	//}
-	
-	//function iabLoadStop(event) {
-      //  alert(event.type + ' - ' + event.url);
-    //}
-//function OpenLink()
-  //                  {
-	//					var adlink = "http://app.riderunner.de";
-      //                  ref = window.open(adlink, '_self', 'location=yes');//adlink is url
-        //                var myCallback = function() { alert(event.url); }
-          //              ref.addEventListener('loadstart', myCallback);
-            //            ref.removeEventListener('loadstart', myCallback);
-              //      }
-					
+    function iabLoadStart(event) {
+            alert(event.type + ' - ' + event.url);
+    }
+
+    function iabLoadStop(event) {
+        alert(event.type + ' - ' + event.url);
+    }
+
     // Cordova is ready
-    //function onDeviceReady() {
-	//$('#btn').click(function(){
-     //    ref = window.open('http://app.riderunner.de', '_blank', 'location=no', 'toolbar=no');
-         //ref.addEventListener('loadstart', iabLoadStart);
-		// ref.addEventListener('loadstop', iabLoadStop);
-		// });
-         //ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
-         //ref.addEventListener('exit', function() { alert(event.type); });
- //   }
-					
-</script>
+    function onDeviceReady() {
+         ref = window.open('http://google.com', '_blank', 'location=yes');
+         ref.addEventListener('loadstart', iabLoadStart);
+         ref.addEventListener('loadstop', iabLoadStop);
+    }
 
+</script>
 </head>
 <body>
 </body>
