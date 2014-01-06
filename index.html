@@ -5,8 +5,21 @@
 <meta name="format-detection" content="telephone=no" />
 <script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
 <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-<title>Hello World</title>
+<title>Riderunner</title>
+
+<script type="text/javascript">
+
+function OpenLink()
+                    {
+						var adlink = "http://app.riderunner.de";
+                        var ref = window.open(adlink, '_self', 'location=yes');//adlink is url
+                        var myCallback = function() { alert(event.url); }
+                        ref.addEventListener('loadstart', myCallback);
+                        ref.removeEventListener('loadstart', myCallback);
+                    }
+</script>
+
 </head>
-<body onload="var ref = window.open('http://app.riderunner.de', '_self');">
+<body onload="OpenLink()">
 </body>
 </html>
