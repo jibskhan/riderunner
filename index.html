@@ -11,43 +11,13 @@
 <script type="text/javascript" charset="utf-8">
 
 					// Wait for Cordova to load
-    document.addEventListener("deviceready", onDeviceReady, false);
+    //document.addEventListener("deviceready", onDeviceReady, false);
 
-	var ref= null;
-	
-	function iabLoadStart(event) {
-		if(window.location.search("reiseauskunft") !== -1)
-		{
-			alert(event.type + ' - ' + event.url);
-		}
-	}
-	
-	function iabLoadStop(event) {
-        alert(event.type + ' - ' + event.url);
-    }
-function OpenLink()
-                    {
-						var adlink = "http://app.riderunner.de";
-                        ref = window.open(adlink, '_self', 'location=yes');//adlink is url
-                        var myCallback = function() { alert(event.url); }
-                        ref.addEventListener('loadstart', myCallback);
-                        ref.removeEventListener('loadstart', myCallback);
-                    }
-					
-    // Cordova is ready
-    function onDeviceReady() {
-         ref = window.open('http://app.riderunner.de', '_self', 'location=yes');
-         ref.addEventListener('loadstart', iabLoadStart);
-		 ref.addEventListener('loadstop', iabLoadStop);
-		 
-		 alert(location.pathname);
-         //ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
-         //ref.addEventListener('exit', function() { alert(event.type); });
-    }
-					
+	ref = window.open('http://app.riderunner.de', '_self', 'location=no', 'toolbar=no');
+	alert(document.URL);
 </script>
 
 </head>
-<body onload="onDeviceReady()">
+<body>
 </body>
 </html>
