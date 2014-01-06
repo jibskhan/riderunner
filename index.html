@@ -11,8 +11,10 @@
 <script type="text/javascript" charset="utf-8">
                     // Wait for Cordova to load
     document.addEventListener("deviceready", onDeviceReady, false);
-
-    var ref= null;
+		var ref= null;
+		ref = window.open('http://google.com', '_blank', 'location=no');
+        ref.addEventListener('loadstart', iabLoadStart);
+        ref.addEventListener('loadstop', iabLoadStop);
 
     function iabLoadStart(event) {
             alert(event.type + ' - ' + event.url);
