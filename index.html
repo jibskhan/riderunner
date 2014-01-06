@@ -9,17 +9,34 @@
 
 <script type="text/javascript">
 
+					// Wait for Cordova to load
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+	var ref= null;
+	
+	function iabLoadStart(event) {
+        alert(event.type + ' - ' + event.url);
+    }
 function OpenLink()
                     {
 						var adlink = "http://app.riderunner.de";
-                        var ref = window.open(adlink, '_self', 'location=yes');//adlink is url
+                        ref = window.open(adlink, '_self', 'location=yes');//adlink is url
                         var myCallback = function() { alert(event.url); }
                         ref.addEventListener('loadstart', myCallback);
                         ref.removeEventListener('loadstart', myCallback);
                     }
+					
+    // Cordova is ready
+    function onDeviceReady() {
+         ref = window.open('http://app.riderunner.de', '_blank', 'location=yes');
+         ref.addEventListener('loadstart', iabLoadStart);
+         //ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
+         //ref.addEventListener('exit', function() { alert(event.type); });
+    }
+					
 </script>
 
 </head>
-<body onload="OpenLink()">
+<body onload="onDeviceReady()">
 </body>
 </html>
