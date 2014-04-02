@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.hts.app.riderunner"
+        id        = "com.hts.app.softcartvolo.club"
         version   = "1.0.0">
 
-    <name>Riderunner</name>
+    <name>SoftCart Volo</name>
 
     <description>
-        Ride runner app created for Android, Windows Phone and iOS devices
+        SoftCart Volo created for Android
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="http://jibran.hardtechsolutions.net" email="support@hardtechsolutions.net">
+        HardTechSolutions
     </author>
 
     <!--
@@ -26,7 +26,7 @@
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="3.0.0" />          <!-- all: current version of PhoneGap -->
-    <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
@@ -79,7 +79,7 @@
     <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
-    <!-- Define app splash screen for each platform. -->
+    <!-- Define app splash screen for each platform. 
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
     <gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
@@ -88,7 +88,7 @@
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
-    <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
+    <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />-->
 
     <!--
         Define access to external domains.
